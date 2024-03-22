@@ -26,7 +26,7 @@
   "features": {
     "ghcr.io/devcontainers/features/common-utils:2": {},
   },
-  "forwardPorts": [9200, 9600, 5173, 5601, 3000],
+  "forwardPorts": [9250, 9650, 5173, 5601, 3000],
   "remoteUser": "vscode",
   "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
   "mounts": [

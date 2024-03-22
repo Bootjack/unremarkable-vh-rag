@@ -15,8 +15,8 @@ services:
       - "OPENSEARCH_JAVA_OPTS=-Xms512m -Xmx512m"
     restart: unless-stopped
     ports:
-      - 9200:9200
-      - 9600:9600
+      - 9250:9200
+      - 9650:9600
     ulimits:
       memlock:
         soft: -1
